@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dateable: one
+  dateable_type: Dateable
+  attribute: MyString
+  accuracy: 1
+  range: false
+  start_date: 2023-09-01
+  end_date: 2023-09-01
+  description: MyText
+
+two:
+  dateable: two
+  dateable_type: Dateable
+  attribute: MyString
+  accuracy: 1
+  range: false
+  start_date: 2023-09-01
+  end_date: 2023-09-01
+  description: MyText
