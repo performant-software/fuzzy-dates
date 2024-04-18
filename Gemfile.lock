@@ -1,8 +1,19 @@
+GIT
+  remote: https://github.com/performant-software/resource-api.git
+  revision: 4fba94a095260c2ac38cf04d46950b98ae230964
+  tag: v0.5.8
+  specs:
+    resource_api (0.1.0)
+      pagy (~> 5.10)
+      pundit (~> 2.3.1)
+      rails (>= 7.0, < 8)
+
 PATH
   remote: .
   specs:
     fuzzy_dates (0.1.0)
       rails (>= 6.0.3.2, < 8)
+      resource_api
 
 GEM
   remote: https://rubygems.org/
@@ -109,6 +120,10 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
+    pagy (5.10.1)
+      activesupport
+    pundit (2.3.1)
+      activesupport (>= 3.0.0)
     racc (1.7.1)
     rack (2.2.8)
     rack-test (2.1.0)
@@ -157,6 +172,7 @@ PLATFORMS
 
 DEPENDENCIES
   fuzzy_dates!
+  resource_api!
 
 BUNDLED WITH
    2.3.16
